@@ -9,4 +9,8 @@ if __name__ == '__main__':
 
     # Ajout d'un élément à la liste et l'afficher
     liste_triee.append(12)
-    print("Liste triée avec ajout de la valeur 12 : " + str(sorted(liste_triee)))
+    liste_triee = sorted(liste_triee)
+    print("Liste triée avec ajout de la valeur 12 : " + str(liste_triee))
+
+    # Affichage de l'indice de l'élément 17
+    print("L'élément 17 est positionné à l'indice " + str(liste_triee.index(17)))
