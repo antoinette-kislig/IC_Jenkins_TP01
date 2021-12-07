@@ -17,4 +17,7 @@ if __name__ == '__main__':
 
     # Suppression de l'élement 38 et affichage
     liste_triee.remove(38)
-    print(liste_triee)
+    print("Suppression de l'élément 38 : " + str(liste_triee))
+
+    # Affichage de la sous liste du 2e au 3e élément
+    print("Sous-liste du 2ème au 3ème élément : " + str(liste_triee[1:3]))
