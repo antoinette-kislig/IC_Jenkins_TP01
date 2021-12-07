@@ -14,3 +14,7 @@ if __name__ == '__main__':
 
     # Affichage de l'indice de l'élément 17
     print("L'élément 17 est positionné à l'indice " + str(liste_triee.index(17)))
+
+    # Suppression de l'élement 38 et affichage
+    liste_triee.remove(38)
+    print(liste_triee)
